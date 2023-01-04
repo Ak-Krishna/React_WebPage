@@ -1,8 +1,9 @@
 import React from 'react'
 
 const Hero=(props)=>{
+  // console.log(props.MainTheme)
 return (
-  <div className="container my-5 p-2 hero-section d-flex justify-content-center align-items-center">
+  <div className="container my-5 p-2 hero-section d-flex justify-content-center align-items-center" style={props.MainTheme}>
     <div className="container w-100">
       <div className="row">
         <div className="col-12 col-md-4 col-lg-6 p-3  ">

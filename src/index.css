@@ -8,7 +8,10 @@ html {
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
-
+a{
+  text-decoration: none;
+  color: #242B2E;
+}
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
